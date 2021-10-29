@@ -72,3 +72,24 @@ body > div
 #test-image:hover{
     filter: invert(100px);
 }
+nav
+{
+    list-style: lower-roman;
+    background-color:blue;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 100px;
+}
+main article
+{
+    display: flex;
+    border-radius: 10px;
+    border-color: lightgray;
+}
+img
+{
+    border-radius: 100px;
+    height: auto;
+}
