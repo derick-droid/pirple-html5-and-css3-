@@ -59,3 +59,16 @@ body > div
     background-color:yellowgreen;
     width: 300px;
 }
+/* sudo class */
+#example h2:first_child
+{
+    background-color:blue;
+
+}
+#example p+p{
+    background-color: indianred;
+}
+/* hoover */
+#test-image:hover{
+    filter: invert(100px);
+}
