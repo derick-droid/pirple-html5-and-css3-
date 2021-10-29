@@ -21,3 +21,41 @@ h1
     text-align: center;
     width: 500px;
 }
+/* inheritance  */
+section
+{
+    background-color: orange;
+}
+p
+{
+    color: inherit;
+}
+/* type selectors */
+section p
+{
+    color: blue;
+}
+/* Direct Descendants */
+section > div > h4
+{
+    color: rgb(255, 0, 98);
+}
+/* class */
+.examle
+{
+    background-color: blue;
+}
+#materials
+{
+font-family: 'Courier New', Courier, monospace;
+color: skyblue;
+background-color: blueviolet;
+}
+
+/* specificity */
+body > div
+{
+    height: 500px;
+    background-color:yellowgreen;
+    width: 300px;
+}
